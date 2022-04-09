@@ -24,6 +24,7 @@
     "express": "^4.17.3"
   },
   "scripts": {
-    "start": "node server/index.js"
-  }
+    "start": "nodemon server/index.js"
+  },
+  "proxy": "http://localhost:3001"
 }
