@@ -1,0 +1,29 @@
+{
+  "name": "matsonka-reader",
+  "version": "1.0.0",
+  "description": "It is a multiplatform synchronous epub and pdf reader working with Google Drive",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/MaksymBahrov/Matsonka-reader.git"
+  },
+  "keywords": [
+    "reader",
+    "google",
+    "drive",
+    "multiplatform",
+    "synchronous"
+  ],
+  "author": "Maksym Bahrov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaksymBahrov/Matsonka-reader/issues"
+  },
+  "homepage": "https://github.com/MaksymBahrov/Matsonka-reader#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "scripts": {
+    "start": "node server/index.js"
+  }
+}
